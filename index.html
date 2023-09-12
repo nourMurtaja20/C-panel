@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C-Panel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/C-Panel.css" />
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+        <i class='bx bx-menu' id="btn"></i>
+        <i class='bx bx-x' id="cancel"></i>
+    </label>
+    <aside class="aside-column">
+
+        <span>BOLGS</span>
+        <span>Admin Tools</span>
+
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class='bx bx-link-external'></i>
+                    <span>overview</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <i class="bx bx-server"></i>
+                    <span>All Blogs</span>
+                </a>
+            </li>
+            <li>
+                <a href="Category.html">
+                    <i class="bx bx-category"></i>
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-cog'></i>
+                    <span>Settings</span>
+                </a>
+            </li>
+        </ul>
+        <span>Insights</span>
+        <ul>
+            <li>
+                <a href="Notifications.html">
+                    <i class='bx bx-bell'></i>
+                    <span>Notifications</span>
+                </a>
+            </li>
+        </ul>
+        <div class="div-row">
+            <figure>
+                <img src="images/img9.png" alt="">
+            </figure>
+            <article>
+                <span>Momen</span>
+                <span>Sisalem</span>
+            </article>
+            <a href="#"><i class='bx bx-log-out'></i></a>
+        </div>
+    </aside>
+    <section class="main-section">
+        <header>
+            <span>Hi <span>Dr.Momen,</span></span>
+            <div class="seach-box">
+                <input type="text" placeholder="Search">
+                <i class='bx bx-search'></i>
+            </div>
+        </header>
+        <span>All Blogs</span>
+        <section class="section-filter">
+            <i class='bx bx-filter-alt'></i>
+            <div class="custom-select">
+                <select>
+                    <option value="0">Category</option>
+                    <option value="1">Blog title</option>
+                    <option value="2">Due date</option>
+                    <option value="3">Publisher</option>
+                </select>
+            </div>
+            <div class="custom-select">
+                <select>
+                    <option value="0">All</option>
+                    <option value="1">Development</option>
+                    <option value="2">Design</option>
+                </select>
+            </div>
+            <i class='bx bx-trash'></i>
+            <button>Create New Blog</button>
+        </section>
+        <table>
+            <thead>
+                <tr>
+                    <th><input type="checkbox" /></th>
+                    <th>Category</th>
+                    <th>Blog title</th>
+                    <th>Due date</th>
+                    <th>Publisher</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" /></td>
+                    <td><span>Development</span></td>
+                    <td>Improve Your Coding Skills And Get Jobs </td>
+                    <td>Dec 14, 2020</td>
+                    <td>Ahmed Karim</span></td>
+                    <td><span>Development</span></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" /></td>
+                    <td><span>Development</span></td>
+                    <td>Improve Your Coding Skills And Get Jobs</td>
+                    <td>Dec 14, 2020</td>
+                    <td>Ahmed Karim</span></td>
+                    <td><span>Development</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>
